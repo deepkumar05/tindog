@@ -1,0 +1,120 @@
+body{
+  font-family: "Raleway";
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+h2{
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+h3{
+  font-size: : 1.5rem;
+}
+p{
+  color: #73777B;
+}
+#title{
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  margin: 0px 1.125rem;
+  font-size: 1.2rem;
+}
+.btn{
+  margin: 5% 3% 4% 0%;
+}
+.mc{
+  color: white;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.iphone6{
+  max-width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.res{
+  text-align: center;
+  padding: 5%;
+}
+.mummy{
+  color: #ef8172;
+  padding: 1.125rem;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-img{
+  max-width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+.press-img{
+  max-width: 15%;
+  margin: 0rem 1.25rem 3rem;
+}
+#pricing{
+  text-align: center;
+  padding: 7%;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  color: white;
+  font-size: 3.5rem;
+}
+#footer{
+  text-align: center;
+  padding: 4rem 0rem;
+}
+.papa{
+  color: black;
+  padding: 1% 0.5%;
+}
+.papa:hover{
+  color: #73777B;
+}
+@media(max-width: 1100px) {
+  #title{
+    text-align: center;
+  }
+  .iphone6{
+    position: static;
+    transform: rotate(0);
+  }
+}
