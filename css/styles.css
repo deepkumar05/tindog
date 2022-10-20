@@ -13,6 +13,7 @@ h3{
 }
 p{
   color: #73777B;
+  font-size: 1rem;
 }
 #title{
   background-color: #ff4c68;
@@ -116,8 +117,5 @@ p{
   .iphone6{
     position: static;
     transform: rotate(0);
-  }
-  p{
-    font-size: 3rem;
   }
 }
